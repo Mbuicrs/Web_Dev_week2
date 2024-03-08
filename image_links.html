@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+        header {
+            background-color: #d1cfc8;
+            color: rgb(13, 35, 37);
+            padding: 20px;
+            text-align: center;
+            }
+        .image-container {
+            display: flex; /* Use flexbox to ensure the images are displayed in a row */
+            }
+        
+        .image-container {
+            display: flex; /* Use flexbox to ensure the images are displayed in a row */
+            }
+        
+        .image-container img {
+            width: 200px; /* Set a specific width for each image */
+            height: 150px; /* Set a specific height for each image */
+            object-fit: cover; /* Maintain aspect ratio and crop if necessary to fit */
+            margin-right: 10px; /* Add some spacing between the images */
+            }
+     
+        nav {
+            background-color: #b9b4ce;
+            padding: 10px;
+            }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            }
+        nav ul li {
+            display: inline;
+            margin-right: 50px;
+            }
+        section {
+            padding: 30px;
+            }
+        img {
+            max-width: auto;
+            height: 234px;
+            object-fit: cover;
+            }
+        .image-list {
+            list-style: none; /* Remove default list styles */
+            padding: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+            }
+        
+        .image-list li {
+            margin-bottom: 10px; /* Add some spacing between the list items */
+            .image-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+        .image-container {
+                position: relative;
+            }
+            
+        .image-container img {
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+            }
+            }
+
+        .image-text {
+            margin-left: 10px; /* Add margin to the left of text for spacing */
+            font-size: 14px; /* Adjust text size as needed */
+            }  
+        .container {
+            width: 90%; /* 90% of the viewport width */
+            margin: 0 auto; /* Center the container horizontally */
+            }
+            
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! We provide you with the latest in technology.</p>
+        <a href="https://example.com/technology"><img src="Technology.jpg" alt="Technology"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Explore the beauty of nature with our gallery.</p>
+        <div class="image-container">
+            <a href="https://example.com/nature"><img src="Nature_oasis.jpeg" alt="Desert Oasis Nature"></a>
+            <a href="https://example.com/nature"><img src="Nature_and_tech.jpeg" alt="Nature and Technology"></a>
+            <a href="https://example.com/nature"><img src="Nature_Amazon.jpeg" alt="Tropical Rainforest Nature"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Check out our delicious food items!</p>
+
+        <ul class="image-list">
+            <li>
+                <a href="https://example.com/food1">
+                    <div class="image-container">
+                        <img src="Food_African.jpeg" alt="Food 1">
+                        <span class="image-text">Chapati and Stew</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.com/food2">
+                    <div class="image-container">
+                        <img src="Food_pizza.jpeg" alt="Food 2">
+                        <span class="image-text">Pizza</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.com/food3">
+                    <div class="image-container">
+                        <img src="Food_fish.jpeg" alt="Food 3">
+                        <span class="image-text">Fish berbeque</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+    </section>
+</body>
+</html>
